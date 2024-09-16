@@ -1,0 +1,10 @@
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 15px solid transparent;
+    padding: 10px;
+    /*border-image-source: url('borda.png');
+    border-image-slice: 25;
+    border-image-repeat: stretch;*/
+    border-image: url('borda.png') 30 repeat;
+}

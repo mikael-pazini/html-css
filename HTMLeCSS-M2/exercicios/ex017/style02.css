@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    font: normal 16px Arial,Verdana, Serif;
+    text-align: center;
+    
+}
+p.par00 {
+    text-align: justify;
+    text-indent: 1em;
+}
+p.par01 {
+    text-align: left;
+    text-indent: 1em;
+}
+p.par02 {
+    text-align: center;
+    
+}
+p.par03 {
+    text-align: right;
+    
+}

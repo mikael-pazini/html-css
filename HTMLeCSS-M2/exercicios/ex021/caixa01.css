@@ -1,0 +1,26 @@
+body {background-color: lightgray;}
+h1 {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+
+    /*border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;*/
+    border:  10px solid darkslategray;
+
+    padding: 10px 10px 5px 10px ;
+    margin: 20px 10px 20px 10px;
+
+    /*outline-width: 5px;
+    outline-color: aquamarine;
+    outline-style: dotted;*/
+    outline: 5px aquamarine dotted;
+}
+
+a {
+    /*border-width: 10px;
+    border-style: solid;
+    border-color: red;*/
+    border: 10px solid red;
+}
