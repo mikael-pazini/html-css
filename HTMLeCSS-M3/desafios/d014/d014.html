@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desáfio 14</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            max-width: 800px;
+            text-align: left;
+        }
+
+        caption {
+            font-size: 1.25em;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .num {
+            text-align: center;
+        }
+
+        .cabecalho, .media {
+            background-color: gray;
+            color: white;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Desáfio 14</h1>
+    <table>
+        <caption>
+            Tabela de Notas
+        </caption>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col" class="cabecalho center">Área</th>
+                <th rowspan="2" scope="col" class="cabecalho center">Disciplinas</th>
+                <th colspan="2" scope="colgroup" class="cabecalho center">Notas</th>
+                <th rowspan="2" scope="col" class="cabecalho center">Média</th>
+            </tr>
+            <tr>
+                <th scope="col" class="cabecalho center">Nota 1</th>
+                <th scope="col" class="cabecalho center">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup" class="center">Exatas</th>
+                <td>Matemática</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="media">Média de Exatas</th>
+                <td class="num media">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="media" class="center">Humanas</th>
+                <td>História</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+                <td class="num">0.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" class="media">Média de Humanas</th>
+                <td class="num media" class="media">0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="5">Aluno: Mikael Luis Pazini</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
