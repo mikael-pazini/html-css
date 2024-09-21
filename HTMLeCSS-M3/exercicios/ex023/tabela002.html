@@ -12,7 +12,7 @@
         }
 
         table {
-            width: 400px;
+            width: 500px;
             height: 10px;
             border-collapse: collapse;
         }
@@ -20,6 +20,13 @@
         td, th {
             border: 1px solid rgb(75, 0, 75);
             padding: 8px;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(185, 130, 185, 0.80);
         }
 
         thead, tfoot {
@@ -36,6 +43,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!-- HIERARQUIA DE TABELAS GRANDES
         Table
+            Caption = "legenda"
             thead
                 tr, td, th
             tbody
@@ -44,10 +52,11 @@
                 tr, td, th
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -162,7 +171,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
