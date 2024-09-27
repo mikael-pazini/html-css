@@ -21,13 +21,13 @@ h1 {
 /*Estilo para retrato*/
 @media screen and (orientation: portrait) {
     body {
-    background: url('../imagens/cev-portrait.jpg') no-repeat center bottom;
+    background: url('../../imagens/cev-portrait.jpg') no-repeat center bottom;
     }
 }
 
 /*Estilo para paisagem*/
 @media screen and (orientation: landscape) {
     body {
-        background: url('../imagens/cev-landscape.jpg') no-repeat left bottom;
+        background: url('../../imagens/cev-landscape.jpg') no-repeat left bottom;
     }
 }
