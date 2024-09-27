@@ -14,8 +14,25 @@ Grandes telas: acima de 1200px
 /*Estilo para print*/
 @media print {
     body {
-        background: url('../../imagens/back-print.jpg');
-        background-size: cover;
+        /*background: url('../../imagens/back-print.jpg');*/ /* não funciona*/
+        /*background-size: cover;*/
+    }
+    main{
+        border: 2px solid black;
+    }
+    main h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+        text-align: center;
+    }
+    main::after {
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: overline;
+        content: 'Essa impressão foi feita no curso HTML5 e CSS3';
+        display: block;
+        text-align: center;
+        
     }
     img#phone { display: none;}
     img#tablet { display: none;}
@@ -66,6 +83,7 @@ Grandes telas: acima de 1200px
         background: url('../../imagens/back-tv.jpg');
         background-size: cover;
     }
+
     img#phone { display: none;}
     img#tablet { display: none;}
     img#print { display: none;}
