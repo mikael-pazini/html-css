@@ -26,12 +26,13 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 300px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
 }
 
 header > nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
 
     display: flex;
     flex-flow: row wrap;
@@ -60,4 +61,22 @@ main {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width:590px) {
+    header {
+        flex-flow: column nowrap;
+    }
+    
+    header > nav {
+        flex-flow: column nowrap;
+    }
+
+    header > h1 {
+        flex-basis: 35px;
+    }
+
+    header > nav > a {
+        width: 90vw;
+    }
 }
